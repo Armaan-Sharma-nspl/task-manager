@@ -1,8 +1,3 @@
-tasks = []
-
-def add_task(task):
-   tasks.append(task)
-
-def show_tasks():
-   for t in tasks:
-       print(t)
+def delete_task(task): 
+   if task in tasks: 
+       tasks.remove(task)
